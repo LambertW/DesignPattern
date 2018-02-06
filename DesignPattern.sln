@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Singleton", "DesignPattern.Singleton\DesignPattern.Singleton.csproj", "{5F90FE6A-69F1-4AE2-8E9F-FFBBD219D9C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Singleton", "DesignPattern.Singleton\DesignPattern.Singleton.csproj", "{5F90FE6A-69F1-4AE2-8E9F-FFBBD219D9C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational patterns", "Creational patterns", "{6FBA3FCF-BE94-460A-81D2-2D8B74F69C87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural patterns", "Structural patterns", "{F095BF33-BCC3-4D47-AD55-A42D7589FDB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral patterns", "Behavioral patterns", "{8F627491-096C-4E1B-A6E4-F10FE5F02003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.FactoryMethod", "DesignPattern.FactoryMethod\DesignPattern.FactoryMethod.csproj", "{918CA60B-590E-40CA-9792-0A503E856023}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,17 @@ Global
 		{5F90FE6A-69F1-4AE2-8E9F-FFBBD219D9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F90FE6A-69F1-4AE2-8E9F-FFBBD219D9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F90FE6A-69F1-4AE2-8E9F-FFBBD219D9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918CA60B-590E-40CA-9792-0A503E856023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918CA60B-590E-40CA-9792-0A503E856023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918CA60B-590E-40CA-9792-0A503E856023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918CA60B-590E-40CA-9792-0A503E856023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F90FE6A-69F1-4AE2-8E9F-FFBBD219D9C2} = {6FBA3FCF-BE94-460A-81D2-2D8B74F69C87}
+		{918CA60B-590E-40CA-9792-0A503E856023} = {6FBA3FCF-BE94-460A-81D2-2D8B74F69C87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2D5F895-F184-4CBF-8062-88B2A2902B37}
