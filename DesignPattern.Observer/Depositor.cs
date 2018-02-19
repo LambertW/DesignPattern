@@ -54,6 +54,8 @@ namespace DesignPattern.Observer
             set { _isChanged = value; }
         }
 
+        public int Total { get => _total; set => _total = value; }
+
         //更新储户状态
         public abstract void Update(int currentBalance, DateTime dateTime);
 
