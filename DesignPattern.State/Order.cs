@@ -6,14 +6,15 @@ namespace DesignPattern.State
 {
     public sealed class Order
     {
-        private State current;
+        private IState _currentState;
 
         public Order()
         {
             //工作状态初始化为上午工作状态
-            current = new WaitForAcceptance();
+            _currentState = new WaitForAcceptance();
             IsCancel = false;
         }
+
         private double minute;
         public double Minute
         {
@@ -29,13 +30,15 @@ namespace DesignPattern.State
             get { return finish; }
             set { finish = value; }
         }
-        public void SetState(State s)
+
+        public void SetState(IState s)
         {
-            current = s;
+            _currentState = s;
         }
+
         public void Action()
         {
-            current.Process(this);
+            _currentState.Process(this);
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPattern.State
 {
-    public sealed class ConfirmationReceipt : State
+    public sealed class ConfirmationReceipt : IState
     {
         public void Process(Order order)
         {

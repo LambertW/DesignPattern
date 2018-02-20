@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPattern.State
 {
-    public interface State
+    public interface IState
     {
         void Process(Order order);
     }

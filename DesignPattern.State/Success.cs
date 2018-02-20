@@ -5,7 +5,7 @@ using System.Text;
 namespace DesignPattern.State
 {
     //交易成功---相当于具体状态角色
-    public sealed class Success : State
+    public sealed class Success : IState
     {
         public void Process(Order order)
         {
