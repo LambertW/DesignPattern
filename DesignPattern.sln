@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Singleton", "DesignPattern.Singleton\DesignPattern.Singleton.csproj", "{5F90FE6A-69F1-4AE2-8E9F-FFBBD219D9C2}"
 EndProject
@@ -35,15 +35,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Proxy", "Desi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Template", "DesignPattern.Template\DesignPattern.Template.csproj", "{1A1B8BE8-1B3E-43AA-9FE9-314E1AB1DD75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Command", "DesignPattern.Command\DesignPattern.Command.csproj", "{A8AB3D50-A833-4B53-98D0-C6374B91DF8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Command", "DesignPattern.Command\DesignPattern.Command.csproj", "{A8AB3D50-A833-4B53-98D0-C6374B91DF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Iterator", "DesignPattern.Iterator\DesignPattern.Iterator.csproj", "{9644E4E1-B6FF-4BB8-9B66-031554FB9D10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Iterator", "DesignPattern.Iterator\DesignPattern.Iterator.csproj", "{9644E4E1-B6FF-4BB8-9B66-031554FB9D10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Observer", "DesignPattern.Observer\DesignPattern.Observer.csproj", "{4178AD76-FDF4-45B7-A7E0-061400D29609}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Observer", "DesignPattern.Observer\DesignPattern.Observer.csproj", "{4178AD76-FDF4-45B7-A7E0-061400D29609}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Mediator", "DesignPattern.Mediator\DesignPattern.Mediator.csproj", "{EF8E8684-0722-4604-9822-5022AEA9F9B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Mediator", "DesignPattern.Mediator\DesignPattern.Mediator.csproj", "{EF8E8684-0722-4604-9822-5022AEA9F9B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.State", "DesignPattern.State\DesignPattern.State.csproj", "{D7449103-9BB9-479F-A37A-B2CD19B87D75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.State", "DesignPattern.State\DesignPattern.State.csproj", "{D7449103-9BB9-479F-A37A-B2CD19B87D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Strategy", "DesignPattern.Strategy\DesignPattern.Strategy.csproj", "{062177E2-4864-4BA1-996B-75F0631366D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{D7449103-9BB9-479F-A37A-B2CD19B87D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7449103-9BB9-479F-A37A-B2CD19B87D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7449103-9BB9-479F-A37A-B2CD19B87D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062177E2-4864-4BA1-996B-75F0631366D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062177E2-4864-4BA1-996B-75F0631366D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062177E2-4864-4BA1-996B-75F0631366D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062177E2-4864-4BA1-996B-75F0631366D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +152,7 @@ Global
 		{4178AD76-FDF4-45B7-A7E0-061400D29609} = {8F627491-096C-4E1B-A6E4-F10FE5F02003}
 		{EF8E8684-0722-4604-9822-5022AEA9F9B1} = {8F627491-096C-4E1B-A6E4-F10FE5F02003}
 		{D7449103-9BB9-479F-A37A-B2CD19B87D75} = {8F627491-096C-4E1B-A6E4-F10FE5F02003}
+		{062177E2-4864-4BA1-996B-75F0631366D1} = {8F627491-096C-4E1B-A6E4-F10FE5F02003}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2D5F895-F184-4CBF-8062-88B2A2902B37}
